@@ -1,24 +1,70 @@
 
+# ==========================================
 # Dependências
+# ==========================================
 node_modules/
 
-# Variáveis de ambiente e segredos
-.env
-.env.*
-!.env.example
-
-# Arquivos gerados
+# ==========================================
+# Arquivos gerados pelo build
+# ==========================================
 dist/
 build/
 coverage/
+*.tsbuildinfo
 
+# ==========================================
 # Logs
+# ==========================================
+logs/
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
+# ==========================================
+# Variáveis de ambiente e segredos
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ==========================================
+# Arquivos temporários
+# ==========================================
+tmp/
+temp/
+.cache/
+
+# ==========================================
 # Sistema operacional
+# ==========================================
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Configurações locais do editor
-.vscode/
+# ==========================================
+# Editores e IDEs
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Arquivos de teste e ferramentas
+# ==========================================
+playwright-report/
+test-results/
+
+# ==========================================
+# Backups e dados locais
+# ==========================================
+backups/
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
