@@ -1,3 +1,22 @@
+
+
+# Arquivos gerados
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos locais do editor
+.vscode/
+
+
 # Logs
 logs
 *.log
